@@ -5,6 +5,7 @@ import ProductShowcase from "@/components/ProductShowcase";
 import MapSection from "@/components/MapSection";
 import FormPopup from "@/components/FormPopup";
 import CookieConsent from "@/components/CookieConsent";
+import ImageCarousel from "@/components/ImageCarousel";
 
 const Index = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -70,6 +71,9 @@ const Index = () => {
 
       {/* Cookie Consent */}
       <CookieConsent />
+
+      {/* Image Carousel Sidebar */}
+      <ImageCarousel />
     </div>
   );
 };
